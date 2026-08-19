@@ -217,4 +217,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-data/
+./data/raw/
+./data/processed/icbc_reported_crashes.csv
+./data/processed/icbc_reported_crashes.schema.json
