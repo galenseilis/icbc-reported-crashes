@@ -3,3 +3,4 @@
 uv run src/icbc_reported_crashes/tableau.py 
 uv run ./src/icbc_reported_crashes/extract_tableau.py
 uv run ./src/icbc_reported_crashes/export_dashboard_data.py
+uv run --with pandas ./src/icbc_reported_crashes/split_records.py
