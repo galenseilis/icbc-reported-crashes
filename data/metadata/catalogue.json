@@ -1,0 +1,149 @@
+{
+  "author": "16bb13c2-f863-41ee-a90e-833ffb820bea",
+  "author_email": null,
+  "creator_user_id": "16bb13c2-f863-41ee-a90e-833ffb820bea",
+  "data_quality": "Counts may differ from previous editions due to further development of data, rounding, late reporting or corrections.\r\n\r\nAs of September 2019, multiple counting of a small number of crashes has been adjusted. Crash counts for years 2013 or later may be slightly lower than previously published.\r\n\r\nGeocode information such as Road Location Description, Latitude and Longitude are approximate and are only assigned to crashes where sufficient location information was available to determine a latitude and longitude. Crashes with insufficient location information do not have geocode information and are blank.",
+  "download_audience": "Public",
+  "id": "2640963c-eb1e-46ea-8ca7-867754b69b2d",
+  "isopen": false,
+  "license_id": "49",
+  "license_title": "Open Data Licence for ICBC Information",
+  "license_url": "https://www.icbc.com/policies/Pages/open-data-licence.aspx",
+  "lineage_statement": "Data captured as of 04-Apr-2020\r\n\r\nICBC data is available by late spring/early summer of the following year (i.e., spring 2020 for 2019 data). The source is ICBC’s Enterprise Data Warehouse.\r\n\r\nCrashes that occurred outside of B.C. have been excluded.\r\n\r\nData includes incidents that occurred in parking lots or involved parked vehicles.",
+  "maintainer": null,
+  "maintainer_email": null,
+  "metadata_created": "2020-07-31T20:14:53.627483",
+  "metadata_modified": "2021-03-08T19:51:50.204956",
+  "metadata_visibility": "Public",
+  "name": "icbc-reported-crashes",
+  "notes": "ICBC crash details gathered from reports made to ICBC by insured registered vehicle owners, drivers, pedestrians and cyclists.",
+  "num_resources": 1,
+  "num_tags": 5,
+  "organization": {
+    "id": "24843cf9-358a-424b-8336-41c3a3ae8f21",
+    "name": "insurance-corporation-of-british-columbia",
+    "title": "Insurance Corporation of British Columbia",
+    "type": "organization",
+    "description": "The Insurance Corporation of British Columbia (ICBC) is committed to protection and peace of mind for B.C. drivers, quality products and services, and offering customers the best coverage at the lowest possible price.",
+    "image_url": "2020-03-20-205723.751709icbclogo.png",
+    "created": "2020-03-20T13:57:23.772865",
+    "is_organization": true,
+    "approval_status": "approved",
+    "state": "active"
+  },
+  "owner_org": "24843cf9-358a-424b-8336-41c3a3ae8f21",
+  "private": false,
+  "publish_state": "PUBLISHED",
+  "purpose": "To increase public transparency by allowing data to be easily accessed, reduce data requests, and support research initiatives, stakeholders, and our shareholder.  This initiative also supports the BC Government's Open Data Initiative.",
+  "record_create_date": "2020-07-31",
+  "record_last_modified": "2021-03-08",
+  "record_publish_date": "2021-03-08",
+  "resource_status": "onGoing",
+  "security_class": "PUBLIC",
+  "state": "active",
+  "title": "ICBC Reported Crashes",
+  "type": "bcdc_dataset",
+  "url": null,
+  "version": null,
+  "view_audience": "Public",
+  "contacts": [
+    {
+      "displayed": [
+        "displayed"
+      ],
+      "email": "data.support@icbc.com",
+      "name": "ICBC Data Support",
+      "org": "24843cf9-358a-424b-8336-41c3a3ae8f21",
+      "role": "pointOfContact"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2020-07-28",
+      "type": "Published"
+    }
+  ],
+  "more_info": [
+    {
+      "__extras": {
+        "delete": "0"
+      },
+      "url": ""
+    }
+  ],
+  "resources": [
+    {
+      "bcdc_type": "document",
+      "cache_last_updated": null,
+      "cache_url": null,
+      "created": "2020-07-31T20:16:00.957000",
+      "datastore_active": false,
+      "description": "ICBC crash details gathered from reports made to ICBC by insured registered vehicle owners, drivers, pedestrians and cyclists.",
+      "format": "txt",
+      "hash": "",
+      "id": "59b7687b-507c-4ba1-a8b1-d17b143ff5c3",
+      "json_table_schema": {},
+      "metadata_modified": "2020-07-31T20:16:00.957000",
+      "mimetype": null,
+      "mimetype_inner": null,
+      "name": "ICBC Reported Crashes",
+      "package_id": "2640963c-eb1e-46ea-8ca7-867754b69b2d",
+      "position": 0,
+      "resource_access_method": "indirect access",
+      "resource_storage_location": "web or ftp site",
+      "resource_type": "data",
+      "resource_update_cycle": "annually",
+      "size": null,
+      "state": "active",
+      "supplemental_info": "ICBC Reported Crashes dataset includes the following data fields:\r\n- Crash Count\r\n- Crash Severity\r\n- Cross Street Full Name\r\n- Cyclist Flag\r\n- Date of Loss Year\r\n- Day of Week\r\n- Derived Crash Configuration\r\n- Heavy Vehicle Flag\r\n- Intersection Crash\r\n- Latitude\r\n- Longitude\r\n- Mid Block Crash\r\n- Month of Year\r\n- Motorcycle Flag\r\n- Municipality Name\r\n- Municipality with Boundary\r\n- Parking Lot Flag\r\n- Pedestrian Flag\r\n- Region\r\n- Road Location Description\r\n- Street Full Name\r\n- Time Category",
+      "url": "https://public.tableau.com/profile/icbc#!/vizhome/ICBCReportedCrashes/ICBCReportedCrashes",
+      "url_type": null,
+      "temporal_extent": [
+        {
+          "beginning_date": "",
+          "end_date": ""
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "display_name": "ICBC",
+      "id": "4993f7a2-6db9-43f8-a107-6e9f52ad834e",
+      "name": "ICBC",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "accidents",
+      "id": "3baec533-cb18-4ed5-82bb-6df7274608d5",
+      "name": "accidents",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "crashes",
+      "id": "dc54d54c-f530-430c-8fa5-e5b4b7d93549",
+      "name": "crashes",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "insurance corporation of british columbia",
+      "id": "e2c68219-f008-4bb7-b53c-fcfc71ce8c3c",
+      "name": "insurance corporation of british columbia",
+      "state": "active",
+      "vocabulary_id": null
+    },
+    {
+      "display_name": "vehicle crashes",
+      "id": "c7cd0844-9f96-457d-99d3-42f52795a1f8",
+      "name": "vehicle crashes",
+      "state": "active",
+      "vocabulary_id": null
+    }
+  ],
+  "groups": [],
+  "relationships_as_subject": [],
+  "relationships_as_object": []
+}
