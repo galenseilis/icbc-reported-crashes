@@ -1,7 +1,7 @@
 [project]
 name = "icbc-reported-crashes"
 version = "0.1.0"
-description = "Add your description here"
+description = "Insurance Corporation of British Columbia's Reported Crashes Dataset."
 readme = "README.md"
 authors = [
     { name = "galenseilis", email = "galen.seilis@seilis.ca" }
